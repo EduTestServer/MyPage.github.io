@@ -1,17 +1,36 @@
+
+
 h1{
-    font-family: cursive;
-    color: aqua;
+      font-family: cursive;
+    color: blue;
+     margin: 10px;
+    
+    
     
 }
 
 p{
-    
-    font-family: monospace;
-    color:blueviolet
-    
+    z-index: -2;
+    position: fixed;
+     padding: 10px;
+    padding-left: 600px;
+   color: coral; 
+    font-size: 20px;
+  
+     
 }
 
 body{
     
-    background-color: aquamarine;
+   background-color: bisque; 
+}
+
+#test{
+    z-index: -1;
+    position: relative;
+    padding-bottom: 500px;
+    padding-left: 100px;
+    margin: 20px;
+    
+    
 }
