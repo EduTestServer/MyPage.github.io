@@ -2,19 +2,27 @@
 
 h1{
       font-family: cursive;
-    color: blue;
+    color: aliceblue;
      margin: 10px;
-    
-    
-    
+     font-size: 100px;
+}
+
+a{
+    color: aqua;
+}
+
+h3{
+    color: aliceblue;
+    font-size: 40px;
+    padding-left: 100px;
 }
 
 p{
     z-index: -2;
-    position: fixed;
+    position: relative;
      padding: 10px;
-    padding-left: 600px;
-   color: coral; 
+    padding-left: 400px;
+    color: aliceblue; 
     font-size: 20px;
   
      
@@ -22,14 +30,14 @@ p{
 
 body{
     
-   background-color: bisque; 
+   background-image: url(https://media2.giphy.com/media/QgSDig12UOZ0s/giphy.gif?cid=790b76115594c0225311fb633c3466c37d396292201fa27a&rid=giphy.gif);
 }
 
 #test{
     z-index: -1;
     position: relative;
     padding-bottom: 500px;
-    padding-left: 100px;
+    padding-left: 400px;
     margin: 20px;
     
     
